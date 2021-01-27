@@ -5,7 +5,7 @@
 *.js text
 *.json text
 *.md text
-*.ts text
+*.tsx text
 *.yaml text
 *.yml text
 
