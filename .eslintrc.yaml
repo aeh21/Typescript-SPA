@@ -2,7 +2,9 @@ env:
   browser: true
   es6: true
   node: true
-extends: '@ridedott/eslint-config'
+extends:
+  - '@ridedott/eslint-config'
+  - 'plugin:react/recommended'
 overrides:
   - files: ./src/**/*spec.ts
     rules:
@@ -17,3 +19,6 @@ rules:
   unicorn/filename-case:
     - error
     - case: kebabCase
+settings:
+  react:
+    version: 17.0.2
